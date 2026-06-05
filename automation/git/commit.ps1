@@ -4,7 +4,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-$RepoPath = "D:\Users\Rideout421\Documents\GitHub\platform-lab"
+$RepoPath = Split-Path -Parent (Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path))
 Set-Location $RepoPath
 
 if (-not (Test-Path ".git")) {
