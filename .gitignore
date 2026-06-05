@@ -3,6 +3,8 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+ConsoleHost_history.txt
 
 # === LOGS ===
 *.log
@@ -42,3 +44,19 @@ __pycache__/
 
 # === INFRA ===
 .terraform/
+
+# === LAB SPECIFIC ===
+MiniKube.old/
+platform-architecture-output/
+Target-Architecture/
+logs/
+tests/
+*.old/
+
+# Ignore any leftover local state or secrets
+*.kubeconfig
+*.crt
+*.key
+*.pem
+kubeconfig
+.kube/
