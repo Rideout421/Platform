@@ -9,7 +9,7 @@
 
 ## Architecture
 
-![1780700574924](image/README/1780700574924.jpg)
+![Kubernetes Lab Architecture](image/README/kubernetes-lab-architecture.jpg)
 
 The lab is organized around a **Minikube single-node Kubernetes cluster** managed from a local workstation using industry-standard tooling. All major platform engineering disciplines are represented — from cluster bootstrapping and workload deployment to observability, serverless eventing, and S3-compatible state management.
 
@@ -17,15 +17,15 @@ The lab is organized around a **Minikube single-node Kubernetes cluster** manage
 
 ## Stack
 
-| Layer                    | Technology                                                  |
-| ------------------------ | ----------------------------------------------------------- |
-| **Cluster**        | Minikube (single-node Kubernetes)                           |
+| Layer                    | Technology                                                |
+| ------------------------ | --------------------------------------------------------- |
+| **Cluster**        | Minikube (single-node Kubernetes)                         |
 | **IaC**            | OpenTofu*(reusable module infrastructure — in progress)* |
-| **Serverless**     | OpenFaaS (Gateway, Queue Worker, NATS)                      |
-| **Observability**  | Prometheus · Grafana · Alertmanager                       |
-| **Object Storage** | MinIO (S3-compatible, used for backups and cluster state)   |
-| **Workloads**      | NGINX · Apache · Figlet Function · NodeInfo Function     |
-| **Local Tooling**  | kubectl · Helm · MinIO Client                             |
+| **Serverless**     | OpenFaaS (Gateway, Queue Worker, NATS)                    |
+| **Observability**  | Prometheus · Grafana · Alertmanager                     |
+| **Object Storage** | MinIO (S3-compatible, used for backups and cluster state) |
+| **Workloads**      | NGINX · Apache · Figlet Function · NodeInfo Function   |
+| **Local Tooling**  | kubectl · Helm · MinIO Client                           |
 
 ---
 
