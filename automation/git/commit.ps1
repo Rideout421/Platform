@@ -4,7 +4,8 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-$RepoPath = Split-Path -Parent (Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path))
+Set-Location $PSScriptRoot
+$RepoPath = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 Set-Location $RepoPath
 
 if (-not (Test-Path ".git")) {
