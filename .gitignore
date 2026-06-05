@@ -1,0 +1,44 @@
+# === SYSTEM ===
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === LOGS ===
+*.log
+*.tmp
+*.cache
+*.bak
+
+# === BINARIES (CRITICAL) ===
+*.zip
+*.7z
+*.rar
+*.iso
+*.msi
+*.pst
+*.ost
+
+# Office docs (if NOT source-controlled)
+*.docx
+*.pptx
+*.xlsx
+*.xls
+*.pdf
+*.msg
+
+# === BUILD OUTPUTS ===
+bin/
+obj/
+dist/
+build/
+out/
+
+# === LANGUAGE ENV ===
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# === INFRA ===
+.terraform/
