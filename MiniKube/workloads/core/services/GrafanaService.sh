@@ -57,7 +57,7 @@ sudo mkdir -p /etc/grafana
 
 sudo tee /etc/grafana/grafana.env >/dev/null <<'EOF'
 GF_SECURITY_ADMIN_USER=admin
-GF_SECURITY_ADMIN_PASSWORD=Shell421!
+GF_SECURITY_ADMIN_PASSWORD=changeme   # Set your password here before running
 EOF
 
 sudo chmod 600 /etc/grafana/grafana.env

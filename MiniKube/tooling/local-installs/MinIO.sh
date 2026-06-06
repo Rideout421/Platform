@@ -47,7 +47,7 @@ sudo mkdir -p /etc/minio
 
 sudo tee /etc/minio/minio.env >/dev/null <<'EOF'
 MINIO_ROOT_USER=admin
-MINIO_ROOT_PASSWORD=Shell421!
+MINIO_ROOT_PASSWORD=changeme   # Set your password here before running
 EOF
 
 sudo chmod 600 /etc/minio/minio.env
