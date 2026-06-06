@@ -1,4 +1,3 @@
-
 # Commit Automation
 
 This folder contains the PowerShell automation used to monitor workspace changes, update the repository version tracking file, and push changes directly to GitHub from Visual Studio Code.
@@ -18,15 +17,44 @@ To accommodate heavy coding sessions without flooding GitHub with hundreds of mi
 Recommended repository layout:
 
 ```text
-cloud-engineer-scripts/
-  .vscode/
-    tasks.json
-    settings.json
+# Commit Automation
+
+This folder contains the PowerShell automation used to stage workspace changes, update repository version tracking, and push to GitHub directly from Visual Studio Code.
+
+## How It Works
+
+This is a manual trigger workflow — run it when you reach a logical stopping point and want to push your progress to GitHub.
+
+- Click the Play button in VS Code to execute `commit.ps1`
+- The script runs once and completes — it does not loop or watch for changes
+- Version tracking is updated automatically on each run
+- Changes are staged, committed, and pushed in a single operation
+
+## Safety
+
+The script will abort and warn you if any file deletions are detected in the staged changes. Deletions must be handled manually through source control to prevent accidental data loss.
+
+## Folder Layout
+
+repo-root/
   automation/
-    commit.ps1
-    README.md
+    git/
+      commit.ps1
+      README.md
   version.txt
   README.md
-  LICENSE
   .gitignore
+```
+
+## Usage
+
+1. Make your changes and save
+2. Open `commit.ps1` in VS Code
+3. Click the Play button (or press `F5`)
+4. The script handles staging, versioning, committing, and pushing
+
+For fully automated commit workflows with hotkey triggers and VS Code task integration, see the main [cloud-scripts](https://github.com/Rideout421/cloud-scripts) repository.
+
+```
+
 ```
