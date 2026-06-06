@@ -1,3 +1,4 @@
+
 # Commit Automation
 
 This folder contains the PowerShell automation used to monitor workspace changes, update the repository version tracking file, and push changes directly to GitHub from Visual Studio Code.
