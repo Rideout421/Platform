@@ -34,11 +34,13 @@ This is a manual execution workflow.
 
 repo-root/
 ├── automation/
-│   └── git/
-│       ├── sync.ps1
-│       └── README.md
+│   ├── git/
+│   │   ├── sync.ps1
+│   │   └── README.md
+│   ├── openclaw/
+│   └── README.md
 │
-├── .gitattributes│
+├── .gitattributes
 ├── .gitignore
 ├── LICENSE
 ├── README.md
