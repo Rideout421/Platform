@@ -32,6 +32,7 @@ This is a manual execution workflow.
 
 ## Folder Structure
 
+```text
 repo-root/
 ├── automation/
 │   ├── git/
@@ -45,3 +46,4 @@ repo-root/
 ├── LICENSE
 ├── README.md
 └── version.txt
+```
