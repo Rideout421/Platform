@@ -36,8 +36,8 @@ This is a manual execution workflow.
 repo-root/
 ├── automation/
 │   └── git/
-│       ├── sync.ps1
-│       └── README.md
+│       ├── README.md
+│       └── sync.ps1
 │
 ├── .gitattributes
 ├── .gitignore
