@@ -1,4 +1,3 @@
-
 # Git Automation
 
 This folder contains PowerShell automation for staging, committing, and pushing workspace changes directly to GitHub from Visual Studio Code.
@@ -30,16 +29,15 @@ This is a manual execution workflow.
 - Manual review via Git is required before proceeding
 - This prevents accidental loss of tracked files
 
+
 ## Folder Structure
 
-```text
+```
 repo-root/
 ├── automation/
-│   ├── git/
-│   │   ├── sync.ps1
-│   │   └── README.md
-│   ├── openclaw/
-│   └── README.md
+│   └── git/
+│       ├── sync.ps1
+│       └── README.md
 │
 ├── .gitattributes
 ├── .gitignore
