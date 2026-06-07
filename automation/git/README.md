@@ -38,6 +38,7 @@ repo-root/
 │       ├── sync.ps1
 │       └── README.md
 │
+├── .gitattributes│
 ├── .gitignore
 ├── LICENSE
 ├── README.md
