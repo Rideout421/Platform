@@ -60,3 +60,8 @@ tests/
 *.pem
 kubeconfig
 .kube/
+
+# =========================
+# Secret scanner working output - never commit
+# =========================
+.secret-scan-output/
