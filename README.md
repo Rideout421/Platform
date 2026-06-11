@@ -101,4 +101,4 @@ All architecture decisions are intentional and documented. The structure is desi
 ## Contact
 
 Open to full-time opportunities in **Jacksonville, FL** or **Remote**.
-Connect on [LinkedIn](https://www.linkedin.com) or reach out directly via GitHub.
+Connect on [LinkedIn](https://www.linkedin.com/in/rideout421/) or reach out directly via GitHub.
