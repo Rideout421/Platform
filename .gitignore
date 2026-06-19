@@ -11,6 +11,10 @@ ConsoleHost_history.txt
 *.tmp
 *.cache
 *.bak
+# =========================
+# CUSTOM LOCAL ASSETS
+# =========================
+logs/
 
 # === BINARIES (CRITICAL) ===
 *.zip
@@ -60,7 +64,8 @@ tests/
 *.pem
 kubeconfig
 .kube/
-# =========================
+
+# =========================
 # Secret scanner working output - never commit
 # =========================
 .secret-scan-output/
